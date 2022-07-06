@@ -105,18 +105,18 @@ h4{
 /* Donate Plan start */
 .donate-plan{
     text-align: center;
-    margin: 0;
 }
 .donate-plan-heading {
     margin-top: 100px;
 }
-.donate-plan-heading h1{
+.sub-head{
     font-size: 40px;
 }
 .donate-plan-heading h4{
     font-size: 15px;
     width: 50%;
     margin: auto;
+    color: #6e6767;
 }
 .donate-card{
     display: flex;
@@ -139,4 +139,66 @@ h4{
 }
 .card3{
     background-color: #b7caff;
+}
+
+/* Activities Section start */
+.our-activities{
+    text-align: center;
+    margin: 20px 30px 20px 30px;
+}
+.our-activities img{
+    width: 260px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.our-activities img:hover{
+    transition: transform .4s;
+    transform: scale(1.1);
+
+}
+
+/* newsletter section start */
+.newsletter{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.newsletter h4{
+    margin-bottom: 50px;
+}
+.input-button{
+    width: 50%;
+    margin: auto;
+    padding: 80px 100px;
+    background-color: #dccec1;
+
+}
+.input-button input[type="text"]{
+    background-color: #fff;
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius:  5px 0 0 5px;
+    padding-left: 30px;
+    font-size: 20px;
+
+}
+.input-button input[type="submit"]{
+    background-color: rgb(178, 72, 72);
+    width: 150px;
+    height: 52px;
+    border: none;
+    outline: none;
+    border-radius: 0 5px 5px 0;
+    padding-left: 30px;
+    font-size: 20px;
+    position: relative;
+    left: -5px;
+    cursor: pointer;
+    color: white;
+}
+.input-button input[type="submit"]:hover{
+    background-color: rgb(207, 9, 9);
+    transition: .4s;
 }
