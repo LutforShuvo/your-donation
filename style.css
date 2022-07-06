@@ -161,7 +161,7 @@ h4{
 /* newsletter section start */
 .newsletter{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .newsletter h4{
     margin-bottom: 50px;
@@ -201,4 +201,20 @@ h4{
 .input-button input[type="submit"]:hover{
     background-color: rgb(207, 9, 9);
     transition: .4s;
+}
+
+/* Newletter section ends */
+
+/* Footer starts */
+.footer{
+    text-align: center;
+    background-color: #231717;
+    margin: 0;
+    padding: 25px;
+    color: wheat;
+    font-weight: 50;
+}
+footer>h2{
+    font-family: 'Alex Brush', cursive;
+    font-size: 40px;
 }
