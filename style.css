@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* Banner Starts */
+
+.banner-image{
+    background-image:url("images/donation13.jpg");
+    background-color: #cccccc;
+    height: 37.3em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.9;
+    
+}
+.banner-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+  }
+h1{
+    font-size: 50px;
+    font-style: 'Ubuntu';
+    font-weight: bold;
+
+  }
+h4{
+    margin-bottom:100px;
+    font-style: 'Merriweather';
+    font-weight: 100;
+
+  }
+  .link-button{
+    margin-top: 10px;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: #dd7e2a;
+    font-size: 20px;
+
+  }
+  
+  /* banner Ends */
+/* Donate Now starts */
+.donate-now{
+    margin: auto;
+    text-align: center;
+}
+.donate-now-heading{
+    margin-top: 100px;
+    margin-bottom: 50px;       
+}
+.donate-now-heading h1{
+    font-size: 40px;
+}
+.donate-now-heading h4{
+    font-size: 15px;
+    width: 50%;
+    margin: auto;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0 200px 0px 200px;
+}
+.menu li{
+    padding: 30px 20px;
+    width: 60px;
+    margin: auto;
+    font-size: 20px;
+    font-style:'Ubuntu';
+    border: 2px solid #ffffff;
+    outline: 2px;
+}
+.menu li:hover{
+
+    border: 2px solid #dd7e2a;
+    border-radius: 5px;
+    background-color: #f2dac5;
+    transition: 0.5s;
+}
+.other-amount input{
+    width: 50%;
+    border: none;
+    border-bottom: 3px solid #acb2ac;
+    padding: 10px;
+    margin: 40px 100px;
+    text-align: center;
+    font-size: 18px;
+    color:#acb2ac ;
+    opacity: 0.5;
+}
+
+/* end Donate-now section */
+/* Donate Plan start */
+.donate-plan{
+    text-align: center;
+    margin: 0;
+}
+.donate-plan-heading {
+    margin-top: 100px;
+}
+.donate-plan-heading h1{
+    font-size: 40px;
+}
+.donate-plan-heading h4{
+    font-size: 15px;
+    width: 50%;
+    margin: auto;
+}
+.donate-card{
+    display: flex;
+    margin: 50px 100px 20px 100px;
+    
+}
+.card{
+    width: 30%;
+    background-color: #e3e3e4;
+    margin: 10px;
+    padding: 5% 2% 10% 2%;
+    text-align: justify;
+    border-radius: 10px;
+}
+.card1{
+    background-color: #fdf2ba;
+}
+.card2{
+    background-color: #c7e1b2;
+}
+.card3{
+    background-color: #b7caff;
+}
